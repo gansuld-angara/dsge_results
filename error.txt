@@ -1,0 +1,502 @@
+>> dynare estimation_GNSS_SOE_gbfull_irf
+Starting Dynare (version 7.1).
+Calling Dynare with arguments: none
+Starting preprocessing of the model file ... 
+WARNING: Parameter(s) a_p a_e eps_d eps_bh eps_be r_k_ss beta_b C_SS I_SS D_SS BH_SS BE_SS QH_SS SOE_on eps_d_star r_d_star_ss  not used in the model 
+Found 91 equation(s). 
+Evaluating expressions... 
+Computing static model derivatives (order 1). 
+Normalizing the static model... 
+Finding the optimal block decomposition of the static model... 
+30 block(s) found: 
+  29 recursive block(s) and 1 simultaneous block(s). 
+  the largest simultaneous block has 54 equation(s) 
+                                 and 54 feedback variable(s). 
+Computing dynamic model derivatives (order 1). 
+Normalizing the dynamic model... 
+Finding the optimal block decomposition of the dynamic model... 
+25 block(s) found: 
+  24 recursive block(s) and 1 simultaneous block(s). 
+  the largest simultaneous block has 58 equation(s) 
+                                 and 58 feedback variable(s). 
+Preprocessing completed. 
+Preprocessing time: 0h00m00s.
+
+STEADY-STATE RESULTS:
+
+c_p        		 -0.116156
+h_p        		 -0.0515614
+d_p        		 0.485877
+l_p        		 -0.262952
+lam_p      		 0.116156
+J_R        		 -1.51753
+j_B        		 -3.52438
+pie_wp     		 1.34413e-15
+c_i        		 -1.91485
+h_i        		 -2.99065
+b_i        		 0.131063
+l_i        		 -0.0567542
+lam_i      		 1.91485
+s_i        		 -2.66629
+pie_wi     		 1.34413e-15
+I          		 -1.94961
+q_k        		 0
+c_e        		 -2.33409
+k_e        		 1.73927
+l_pd       		 -0.262952
+l_id       		 -0.0567542
+b_ee       		 0.649262
+y_e        		 0.274231
+lam_e      		 2.33409
+s_e        		 -2.24705
+u          		 0.0227926
+d_b        		 0.485877
+b_h        		 0.131063
+b_e        		 0.649262
+r_d        		 -5.16157
+r_bh       		 -4.20119
+r_be       		 -4.20119
+R_b        		 -4.61818
+K_b        		 -0.857497
+pie        		 1.34413e-15
+x          		 0.182322
+C          		 0.12628
+Y          		 0.274231
+D          		 0.485877
+BE         		 0.649262
+BH         		 0.131063
+B          		 1.11651
+w_p        		 -0.155964
+w_i        		 -1.74846
+J_B        		 -3.52438
+q_h        		 3.49326
+K          		 1.73927
+PIW        		 1.34413e-15
+r_ib       		 -4.63992
+r_k        		 -3.05645
+ee_z       		 0
+A_e        		 0
+ee_j       		 0
+mk_d       		 -0.521655
+mk_be      		 0.416987
+mk_bh      		 0.416987
+ee_qk      		 0
+m_i        		 -0.356675
+m_e        		 -1.04982
+eps_y      		 1.79176
+eps_l      		 1.60944
+eps_K_b    		 0
+Y1         		 0.246764
+rr_e       		 -4.20119
+aux1       		 0.244458
+bm         		 -4.68366
+spr_b      		 -4.68366
+data_C     		 0
+data_I     		 0
+data_D     		 0
+data_BH    		 0
+data_BE    		 0
+data_pie   		 1.27139e-15
+data_rIB   		 2.08811e-15
+data_rD    		 1.23908e-15
+data_rB    		 0.000322137
+data_dE    		 0
+data_rstar 		 5.20417e-18
+e          		 -4.97153e-05
+d_p_star   		 -0.358179
+r_d_star   		 -5.16209
+d_b_star   		 -0.358179
+D_star     		 -0.358179
+F_star     		 -1.18598
+R_F_star   		 -4.64043
+R_d_star   		 -4.64043
+r_star     		 -4.63992
+mk_d_star  		 -0.521655
+nfa        		 -1.18603
+nx         		 0.00294849
+rp         		 0
+
+...solve the SS a second time to update the ss of the observables...
+
+STEADY-STATE RESULTS:
+
+c_p        		 -0.116156
+h_p        		 -0.0515614
+d_p        		 0.485877
+l_p        		 -0.262952
+lam_p      		 0.116156
+J_R        		 -1.51753
+j_B        		 -3.52438
+pie_wp     		 -3.14237e-15
+c_i        		 -1.91485
+h_i        		 -2.99065
+b_i        		 0.131063
+l_i        		 -0.0567542
+lam_i      		 1.91485
+s_i        		 -2.66629
+pie_wi     		 -3.14237e-15
+I          		 -1.94961
+q_k        		 0
+c_e        		 -2.33409
+k_e        		 1.73927
+l_pd       		 -0.262952
+l_id       		 -0.0567542
+b_ee       		 0.649262
+y_e        		 0.274231
+lam_e      		 2.33409
+s_e        		 -2.24705
+u          		 0.0227926
+d_b        		 0.485877
+b_h        		 0.131063
+b_e        		 0.649262
+r_d        		 -5.16157
+r_bh       		 -4.20119
+r_be       		 -4.20119
+R_b        		 -4.61818
+K_b        		 -0.857497
+pie        		 -3.14237e-15
+x          		 0.182322
+C          		 0.12628
+Y          		 0.274231
+D          		 0.485877
+BE         		 0.649262
+BH         		 0.131063
+B          		 1.11651
+w_p        		 -0.155964
+w_i        		 -1.74846
+J_B        		 -3.52438
+q_h        		 3.49326
+K          		 1.73927
+PIW        		 -3.14237e-15
+r_ib       		 -4.63992
+r_k        		 -3.05645
+ee_z       		 0
+A_e        		 0
+ee_j       		 0
+mk_d       		 -0.521655
+mk_be      		 0.416987
+mk_bh      		 0.416987
+ee_qk      		 0
+m_i        		 -0.356675
+m_e        		 -1.04982
+eps_y      		 1.79176
+eps_l      		 1.60944
+eps_K_b    		 0
+Y1         		 0.246764
+rr_e       		 -4.20119
+aux1       		 0.244458
+bm         		 -4.68366
+spr_b      		 -4.68366
+data_C     		 0
+data_I     		 0
+data_D     		 0
+data_BH    		 0
+data_BE    		 0
+data_pie   		 -3.15423e-15
+data_rIB   		 -5.17518e-15
+data_rD    		 -3.0722e-15
+data_rB    		 0.000322137
+data_dE    		 0
+data_rstar 		 5.20417e-18
+e          		 -4.97153e-05
+d_p_star   		 -0.358179
+r_d_star   		 -5.16209
+d_b_star   		 -0.358179
+D_star     		 -0.358179
+F_star     		 -1.18598
+R_F_star   		 -4.64043
+R_d_star   		 -4.64043
+r_star     		 -4.63992
+mk_d_star  		 -0.521655
+nfa        		 -1.18603
+nx         		 0.00294849
+rp         		 0
+
+
+Residuals of the static equations:
+Equation number  1: 1          :       0.000000
+Equation number  2: 2          :       0.000000
+Equation number  3: 3          :       0.000000
+Equation number  4: 4          :       0.000000
+Equation number  5: 5          :       0.000000
+Equation number  6: 6          :       0.000000
+Equation number  7: 7          :       0.000000
+Equation number  8: 8          :       0.000000
+Equation number  9: 9          :       0.000000
+Equation number 10: 10         :       0.000000
+Equation number 11: 11         :       0.000000
+Equation number 12: 12         :       0.000000
+Equation number 13: 13         :       0.000000
+Equation number 14: 14         :       0.000000
+Equation number 15: 15         :       0.000000
+Equation number 16: 16         :       0.000000
+Equation number 17: 17         :       0.000000
+Equation number 18: 18         :       0.000000
+Equation number 19: 19         :       0.000000
+Equation number 20: 20         :       0.000000
+Equation number 21: 21         :       0.000000
+Equation number 22: 22         :       0.000000
+Equation number 23: 23         :       0.000000
+Equation number 24: 24         :       0.000000
+Equation number 25: 25         :       0.000000
+Equation number 26: 26         :       0.000000
+Equation number 27: 27         :       0.000000
+Equation number 28: 28         :       0.000000
+Equation number 29: 29         :       0.000000
+Equation number 30: 30         :       0.000000
+Equation number 31: 31         :       0.000000
+Equation number 32: 32         :       0.000000
+Equation number 33: 33         :       0.000000
+Equation number 34: 34         :       0.000000
+Equation number 35: 35         :       0.000000
+Equation number 36: 36         :       0.000000
+Equation number 37: 37         :       0.000000
+Equation number 38: 38         :       0.000000
+Equation number 39: 39         :       0.000000
+Equation number 40: 40         :       0.000000
+Equation number 41: 41         :       0.000000
+Equation number 42: 42         :       0.000000
+Equation number 43: 43         :       0.000000
+Equation number 44: 44         :       0.000000
+Equation number 45: 45         :       0.000000
+Equation number 46: 46         :       0.000000
+Equation number 47: h          :       0.000000
+Equation number 48: 48         :       0.000000
+Equation number 49: 49         :       0.000000
+Equation number 50: 50         :       0.000000
+Equation number 51: 51         :       0.000000
+Equation number 52: 52         :       0.000000
+Equation number 53: 53         :       0.000000
+Equation number 54: 54         :       0.000000
+Equation number 55: 55         :       0.000000
+Equation number 56: 56         :       0.000000
+Equation number 57: 57         :       0.000000
+Equation number 58: 58         :       0.000000
+Equation number 59: 59         :       0.000000
+Equation number 60: 60         :       0.000000
+Equation number 61: 61         :       0.000000
+Equation number 62: 62         :       0.000000
+Equation number 63: 63         :       0.000000
+Equation number 64: 64         :       0.000000
+Equation number 65: 65         :       0.000000
+Equation number 66: 66         :       0.000000
+Equation number 67: 67         :       0.000000
+Equation number 68: data_C     :       0.000000
+Equation number 69: data_I     :       0.000000
+Equation number 70: data_D     :       0.000000
+Equation number 71: data_BH    :       0.000000
+Equation number 72: data_BE    :       0.000000
+Equation number 73: data_pie   :       0.000000
+Equation number 74: data_rIB   :       0.000000
+Equation number 75: data_rD    :       0.000000
+Equation number 76: data_rB    :       0.000000
+Equation number 77: data_dE    :       0.000000
+Equation number 78: data_rstar :       0.000000
+Equation number 79: 79         :       0.000000
+Equation number 80: 80         :       0.000000
+Equation number 81: 81         :       0.000000
+Equation number 82: 82         :       0.000000
+Equation number 83: 83         :       0.000000
+Equation number 84: 84         :       0.000000
+Equation number 85: 85         :       0.000000
+Equation number 86: 86         :       0.000000
+Equation number 87: 87         :       0.000000
+Equation number 88: 88         :       0.000000
+Equation number 89: 89         :       0.000000
+Equation number 90: rp         :       0.000000
+Equation number 91: 91         :       0.000000
+
+
+MODEL_DIAGNOSTICS:  No obvious problems with this mod-file were detected.
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+               0                0                0
+               0                0                0
+               0                0                0
+               0                0                0
+               0                0                0
+               0                0                0
+               0                0                0
+               0                0                0
+       7.689e-17        7.689e-17                0
+       7.792e-17        7.792e-17                0
+       1.234e-16        1.234e-16                0
+       1.586e-16       -1.586e-16                0
+       1.625e-16        1.625e-16                0
+       2.535e-16        2.535e-16                0
+       2.583e-16       -2.583e-16                0
+       2.219e-15        2.219e-15                0
+       3.065e-15        3.065e-15                0
+       1.429e-14       -1.429e-14                0
+        1.83e-14        -1.83e-14                0
+       1.206e-13       -1.206e-13                0
+       4.839e-13       -4.839e-13                0
+       8.377e-11        2.963e-13        8.377e-11
+       8.377e-11        2.963e-13       -8.377e-11
+       8.646e-09       -4.237e-14        8.646e-09
+       8.646e-09       -4.237e-14       -8.646e-09
+       0.0001487       -0.0001487                0
+         0.01544          0.01544                0
+             0.4              0.4                0
+          0.5226           0.5226                0
+          0.6932           0.6932                0
+          0.7119           0.7017           0.1198
+          0.7119           0.7017          -0.1198
+          0.7812           0.7812                0
+          0.8081           0.7982           0.1262
+          0.8081           0.7982          -0.1262
+          0.8463           0.8463                0
+            0.85             0.85                0
+          0.8587           0.8587                0
+           0.873            0.873                0
+             0.9              0.9                0
+          0.9399           0.9399                0
+          0.9448           0.9448                0
+            0.95             0.95                0
+            0.95             0.95                0
+            0.95             0.95                0
+            0.95             0.95                0
+          0.9515           0.9515                0
+           0.994            0.994                0
+           1.006            1.006                0
+           1.026            1.026          0.01298
+           1.026            1.026         -0.01298
+           1.026            1.026                0
+           1.097            1.097                0
+           1.138            1.127           0.1585
+           1.138            1.127          -0.1585
+           1.162            1.162                0
+           1.235            1.232          0.08633
+           1.235            1.232         -0.08633
+           1.275            1.269           0.1263
+           1.275            1.269          -0.1263
+           1.484            1.484                0
+           2.276            2.276                0
+       1.052e+16       -1.052e+16                0
+       2.072e+16        2.072e+16                0
+       4.576e+16       -4.576e+16                0
+       5.355e+16        5.355e+16                0
+       7.506e+16        7.506e+16                0
+       8.307e+16        8.307e+16                0
+       8.549e+16       -8.549e+16                0
+       1.039e+17        1.039e+17                0
+       5.005e+24        5.005e+24                0
+
+There are 23 eigenvalue(s) larger than 1 in modulus for 23 forward-looking variable(s).
+The order and rank conditions are verified.
+
+ 
+%%% Display some SS results (BK model): %%%%
+expenditures in ss: 1.3126
+total income in ss: 1.3155
+C/Y: 0.86247
+I/Y: 0.10819
+K/Y: 4.3277
+r_d (%annual): 2.2931
+r_ib (%annual): 3.8634
+r_bh (%annual): 5.9911
+r_be (%annual): 5.9911
+spread(%annual): 3.698
+bh/(bh+be)(%): 37.3274
+be/(bh+be)(%): 62.6726
+B/Y: 2.3216
+D/Y: 1.2357
+K_b/B: 0.1389
+K_b/Y: 0.32248
+delta_kb: 0.069468
+check_i: 0.9896
+check_e: 0.9896
+w_i*l_i: 0.16444
+w_p*l_p: 0.65776
+w_i: 0.17404
+w_p: 0.85559
+Initial value of the log posterior (or likelihood): 1864.3554
+
+==========================================================
+   Change in the posterior covariance matrix = 393.8949.
+   Change in the posterior mean = 11.2961.
+   Current mode = -1864.3554
+   Mode improvement = 0
+   New value of jscale = 0.0056259
+==========================================================
+
+==========================================================
+   Change in the posterior covariance matrix = 35.2724.
+   Change in the posterior mean = 14.9249.
+   Current mode = -1867.277
+   Mode improvement = 2.9216
+   New value of jscale = 0.34183
+==========================================================
+
+Optimal value of the scale parameter = 0.34183
+
+
+Final value of minus the log posterior (or likelihood):-1867.276980 
+
+RESULTS FROM POSTERIOR ESTIMATION
+parameters
+                 prior mean     mode    s.d.  prior pstdev
+
+rho_ee_z             0.8000   0.4774  0.0460   beta 0.1000 
+rho_A_e              0.8000   0.9015  0.0932   beta 0.1000 
+rho_ee_j             0.8000   0.8515  0.0694   beta 0.1000 
+rho_mk_d             0.8000   0.5715  0.0591   beta 0.1000 
+rho_mk_be            0.8000   0.7849  0.0491   beta 0.1000 
+rho_ee_qk            0.8000   0.1082  0.0230   beta 0.1000 
+rho_eps_y            0.8000   0.5221  0.0578   beta 0.1000 
+rho_eps_l            0.8000   0.8021  0.0602   beta 0.1000 
+rho_eps_K_b          0.8000   0.9277  0.0286   beta 0.1000 
+kappa_p             50.0000  14.9791  2.4017   gamm 20.0000 
+kappa_w             50.0000  54.6191  6.8400   gamm 20.0000 
+kappa_i              2.5000   0.9210  0.1591   gamm 1.0000 
+kappa_d             10.0000   7.4760  1.0468   gamm 2.5000 
+kappa_bh             6.0000  11.2261  1.4546   gamm 2.5000 
+kappa_kb            10.0000   0.9999  0.4170   gamm 5.0000 
+phi_pie              2.0000   1.9297  0.2339   gamm 0.5000 
+rho_ib               0.7500   0.9436  0.0065   beta 0.1000 
+phi_y                0.1000   0.0594  0.0378   norm 0.1500 
+ind_p                0.5000   0.2052  0.0710   beta 0.1500 
+ind_w                0.5000   0.4253  0.0970   beta 0.1500 
+a_i                  0.5000   0.3938  0.0433   beta 0.1000 
+rho_r_star           0.8000   0.9496  0.0207   beta 0.1000 
+rho_rp               0.5000   0.8591  0.0426   beta 0.1500 
+
+standard deviation of shocks
+                 prior mean     mode    s.d.  prior pstdev
+
+e_z                  0.0100   0.1556  0.0154   invg 0.0500 
+e_A_e                0.0100   0.0066  0.0038   invg 0.0500 
+e_j                  0.0100   0.0051  0.0086   invg 0.0500 
+e_me                 0.0100   0.0259  0.0026   invg 0.0500 
+e_mi                 0.0100   0.0244  0.0022   invg 0.0500 
+e_mk_d               0.0100   0.4725  0.0225   invg 0.0500 
+e_mk_be              0.0100   0.8619  0.0140   invg 0.0500 
+e_qk                 0.0100   0.9079  0.0374   invg 0.0500 
+e_r_ib               0.0100   0.0026  0.0002   invg 0.0500 
+e_y                  0.0100   1.6120  0.0619   invg 0.0500 
+e_eps_K_b            0.0100   0.1566  0.0133   invg 0.0500 
+e_r_star             0.0100   0.0013  0.0001   invg 0.0500 
+e_rp                 0.0100   0.0075  0.0017   invg 0.0500 
+
+
+Log data density [Laplace approximation] is 1758.938538.
+
+Error using load_last_mh_history_file (line 40)
+Estimation::load_mh_file: I cannot find any mh-history file in estimation_GNSS_SOE_gbfull_irf/metropolis!
+
+Error in CutSample (line 43)
+record=load_last_mh_history_file(MetropolisFolder, M_.fname);
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in dynare_estimation_1 (line 462)
+        CutSample(M_, options_, dispString);
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in dynare_estimation (line 105)
+    dynare_estimation_1(var_list,dname);
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in estimation_GNSS_SOE_gbfull_irf.driver (line 2841)
+oo_recursive_=dynare_estimation(var_list_);
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in dynare (line 300)
+    evalin('base',[fname(1:end-4) '.driver']);
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
